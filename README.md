@@ -10,6 +10,5 @@ To run the code, clone the project using e.g. ```git clone```, ```cd``` to the p
 ```
 (v1.4) pkg> activate .
 (DP_OPF) pkg> instantiate
-
 ```
 to activate all packages collected in ```Project.toml```
