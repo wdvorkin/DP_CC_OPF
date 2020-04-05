@@ -1,4 +1,9 @@
 #!/usr/bin/env julia
+
+import Pkg
+Pkg.activate(".")
+Pkg.instantiate()
+
 using CSV
 using DataStructures: SortedDict
 using JuMP
