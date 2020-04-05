@@ -4,4 +4,4 @@ This repository contains supplementary materials for the paper __Differentially 
 
 The proof of Theorem 2 is contained in [Appendix.pdf](https://github.com/wdvorkin/differentially_private_OPF/blob/master/Appendix.pdf)
 
-The optimization model was implemented by using Julia 
+The optimization models were implemented in [Julia](https://juliacomputing.com/products/juliapro) (v.1.4) using [JuMP](https://github.com/JuliaOpt/JuMP.jl) package. 
