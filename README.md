@@ -12,3 +12,7 @@ To activate the packages in ```Project.toml```, clone the project using e.g. ```
 (DP_OPF) pkg> instantiate
 ```
 
+To run the code, ```cd``` to the project directory and call 
+```
+$ julia DP_OPF.jl
+```
