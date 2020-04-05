@@ -6,8 +6,11 @@ The proof of Theorem 2 is contained in [Appendix.pdf](https://github.com/wdvorki
 
 The optimization models were implemented in [Julia](https://juliacomputing.com/products/juliapro) (v.1.4) using [JuMP](https://github.com/JuliaOpt/JuMP.jl) modeling language for mathematical optimization embedded in Julia. The models run by [Mosek](https://www.mosek.com) comercial optimization solver, which needs to be installed and licensed. 
 
-All used packages are collected in ``` Project.toml ```
+To run the code, clone the project using e.g. ```git clone```, ```cd``` to the project directory and call
+```
+(v1.4) pkg> activate .
+
+(DP_OPF) pkg> instantiate
 
 ```
-julia> Pkg.pin("JuMP", v"0.18.2")
-```
+to activate all packages collected in ```Project.toml```
