@@ -8,7 +8,8 @@ The optimization models were implemented in [Julia](https://juliacomputing.com/p
 
 To activate the packages in ```Project.toml```, clone the project using e.g. ```git clone```, ```cd``` to the project directory and call
 ```
-(v1.4) pkg> activate .
+(@v1.4) pkg> update; precompile
+(@v1.4) pkg> activate .
 (DP_OPF) pkg> instantiate
 ```
 
