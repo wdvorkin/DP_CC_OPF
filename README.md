@@ -17,4 +17,8 @@ To run the code, ```cd``` to the project directory and call
 $ julia DP_OPF.jl
 ```
 
-By default, the program returns the solution of the ```CC-OPF``` mechanism and stores the results in ```~\output\CC_OPF```. To run  
+By default, the program returns the solution of the ```CC-OPF``` mechanism and stores the results in ```~\output\CC_OPF```. To run other mechanisms, parse ```"D-OPF"```, ```"ToV-CC-OPF"```, ```"TaV-CC-OPF"``` or ```"CVaR-CC-OPF"``` using option ```-m```, e.g. 
+```
+$ julia DP_OPF.jl -m "CVaR_CC_OPF"
+```
+The results will be stored in ```~\output\CVaR_CC_OPF```. 
