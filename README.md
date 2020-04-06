@@ -13,7 +13,7 @@ julia> Pkg.activate(".")
 julia> Pkg.instantiate()
 ```
 
-To run the code, ```cd``` to the project directory and call (```julia``` is an alias of the Julia binary executable file)
+To run the code, ```cd``` to the project directory and call (```julia``` is an alias to Julia installation)
 ```
 $ julia DP_OPF.jl
 ```
