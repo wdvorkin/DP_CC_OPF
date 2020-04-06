@@ -1,6 +1,7 @@
 #!/usr/bin/env julia
 using Pkg
 pkg"activate ."
+pkg"instantate"
 
 using CSV
 using DataStructures: SortedDict
