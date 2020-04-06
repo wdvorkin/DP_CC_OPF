@@ -10,7 +10,6 @@ using Mosek
 using MosekTools
 using Distributions
 using LinearAlgebra
-using Plots
 using ArgParse
 
 # parse arguments
