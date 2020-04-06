@@ -19,7 +19,7 @@ where ```julia``` is an alias to Julia installation. To run the code, ```cd``` t
 $ julia DP_CC_OPF.jl
 ```
 
-By default, the program returns the solution of the ```CC-OPF``` mechanism and stores the results in ```~/output/CC_OPF```. To run other mechanisms, parse ```"D_OPF"```, ```"ToV_CC_OPF"```, ```"TaV_CC_OPF"``` or ```"CVaR_CC_OPF"``` using option ```-m```, e.g. 
+By default, the program returns the solution of the ```CC-OPF``` mechanism and stores the results in ```~/output/CC_OPF```. To run the other mechanisms, parse ```"D_OPF"```, ```"ToV_CC_OPF"```, ```"TaV_CC_OPF"``` or ```"CVaR_CC_OPF"``` using option ```-m```, e.g. 
 ```
 $ julia DP_CC_OPF.jl -m "CVaR_CC_OPF"
 ```
