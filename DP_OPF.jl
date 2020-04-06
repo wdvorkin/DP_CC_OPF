@@ -1,5 +1,6 @@
 #!/usr/bin/env julia
-
+using Pkg
+pkg"activate ."
 # import Pkg
 # Pkg.activate(".")
 # Pkg.instantiate()
