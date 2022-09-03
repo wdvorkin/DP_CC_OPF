@@ -1,4 +1,4 @@
-# Differentially Private Chance-Constrained OPF
+# DP-CC-OPF: Differentially Private Chance-Constrained OPF
 
 This repository contains supplementary materials for the paper __Differentially Private Optimal Power Flow for Distribution Grids__ by V. Dvorkin, F. Fioretto, P. Van Hentenryck, J. Kazempour, and P. Pinson.
 
